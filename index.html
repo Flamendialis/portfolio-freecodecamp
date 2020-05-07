@@ -14,7 +14,7 @@
 <body onscroll="solidHeader()">
     <header id="header" class="header">
         <nav class="navbar">
-            <ul class="nav-list">
+            <ul id="navlist" class="nav-list">
                 <li><a class="nav-link" href="#welcome">Home</a></li>
                 <li><a class="nav-link" href="#about">About</a></li>
                 <li><a class="nav-link" href="#projects">Projects</a></li>
@@ -49,8 +49,8 @@
         <h2 class="projects-title">PROJECTS</h2>
         <div class="tiles-container">
             <div id="tile1" class="project-tile">
-                <a href="https://codepen.io/flamen_dialis/full/YzPgQRg" target="_blank"><img
-                        src="resources\Survey FCC.png" alt="website thumbnail"></a>
+                <a href="https://codepen.io/flamen_dialis/full/YzPgQRg" target="_blank">
+                    <img src="resources\Survey FCC.png" alt="website thumbnail"></a>
             </div>
             <div id="tile2" class="project-tile">
                 <a href="https://codepen.io/flamen_dialis/full/WNbaOoX" target="_blank">
@@ -58,19 +58,73 @@
                 </a>
             </div>
             <div id="tile3" class="project-tile">
-                <a href="https://codepen.io/flamen_dialis/full/YzyZQPG" target="_blank"><img
-                        src="resources\Landing-FCC.png" alt="website thumbnail"></a>
+                <a href="https://codepen.io/flamen_dialis/full/YzyZQPG" target="_blank">
+                    <img src="resources\Landing-FCC.png" alt="website thumbnail"></a>
             </div>
             <div id="tile4" class="project-tile">
-                <a href="https://codepen.io/flamen_dialis/full/zYvdovN" target="_blank"><img
-                        src="resources\Technical Documentation Page.png" alt="website thumbnail"></a>
+                <a href="https://codepen.io/flamen_dialis/full/zYvdovN" target="_blank">
+                    <img src="resources\Technical Documentation Page.png" alt="website thumbnail"></a>
             </div>
         </div>
     </section>
     <section id="contact" class="contact">
-
+        <h2 class="projects-title">CONTACT</h2>
+        <div class="contact-full-card">
+            <div class="contact-info">
+                <div class="contact-list">
+                    <div>
+                        <img src="resources\002-signs.png" alt="">
+                        <p>Buenos Aires, AR</p>
+                    </div>
+                    <div>
+                        <img src="resources\001-letter.png" alt="">
+                        <p>menendezrfelixj@gmail.com</p>
+                    </div>
+                    <div>
+                        <img src="resources\003-touch-screen.png" alt="">
+                        <p>+541164769903</p>
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="https://github.com/Flamendialis" target="_blank"><img src="resources\github.png"
+                            alt="github"></a>
+                    <a href="https://codepen.io/flamen_dialis" target="_blank"><img src="resources\codepen.png"
+                            alt="codepen"></a>
+                    <a href="https://www.linkedin.com/in/f%C3%A9lix-jos%C3%A9-men%C3%A9ndez-rodr%C3%ADguez-294366198/"
+                        target="_blank"><img src="resources\linkedin.png" alt="linkedin"></a>
+                    <a href="https://twitter.com/Flamen_Dialis" target="_blank"><img src="resources\twitter.png"
+                            alt="twitter"></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="40" rows="5"></textarea>
+                <button class="submit-button" type="submit">Submit</button>
+            </form>
+        </div>
     </section>
-
+    <footer id="footer" class="footer">
+        <div>
+            <p> Landscape by <a
+                    href="https://pixabay.com/es/users/stevepb-282134/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=404072"
+                    target="_blank">Steve
+                    Buissinne</a> from <a
+                    href="https://pixabay.com/es/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=404072"
+                    target="_blank">Pixabay</a>
+            </p>
+            <p>
+                Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26"
+                    target="_blank">Icongeek26</a> from
+                <a href="https://www.flaticon.com/" title="Flaticon" target="_blank"> www.flaticon.com</a></p>
+            <p>
+                Profile picture by <a href="https://vazcr.myportfolio.com/" target="_blank">@rollingtostones</a>
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>
